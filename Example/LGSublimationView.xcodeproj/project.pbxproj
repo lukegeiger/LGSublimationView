@@ -22,6 +22,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		67927E46A4993A2D5E7EF309 /* libPods-LGSublimationView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF853B39F3DE53FDEA2C1FDF /* libPods-LGSublimationView.a */; };
+		DF406DE71B029E94000D569E /* sublimer.gif in Resources */ = {isa = PBXBuildFile; fileRef = DF406DE61B029E94000D569E /* sublimer.gif */; };
 		DFB5470B1B02896B009CB8AE /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFB5470A1B02896B009CB8AE /* Launch Screen.xib */; };
 		DFB547151B028CBA009CB8AE /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFB5470D1B028CBA009CB8AE /* 1.jpg */; };
 		DFB547161B028CBA009CB8AE /* 1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFB5470E1B028CBA009CB8AE /* 1@2x.jpg */; };
@@ -72,6 +73,7 @@
 		A21AFD2D77CBF062C16DF4DA /* Pods-LGSublimationView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGSublimationView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LGSublimationView/Pods-LGSublimationView.debug.xcconfig"; sourceTree = "<group>"; };
 		BF853B39F3DE53FDEA2C1FDF /* libPods-LGSublimationView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LGSublimationView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C42F50CB563C904D6CAD8438 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF406DE61B029E94000D569E /* sublimer.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sublimer.gif; sourceTree = "<group>"; };
 		DFB5470A1B02896B009CB8AE /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
 		DFB5470D1B028CBA009CB8AE /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		DFB5470E1B028CBA009CB8AE /* 1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1@2x.jpg"; sourceTree = "<group>"; };
@@ -212,6 +214,7 @@
 		DFB5470C1B028C87009CB8AE /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				DF406DE61B029E94000D569E /* sublimer.gif */,
 				DFB5470D1B028CBA009CB8AE /* 1.jpg */,
 				DFB5470E1B028CBA009CB8AE /* 1@2x.jpg */,
 				DFB5470F1B028CBA009CB8AE /* 2.jpg */,
@@ -316,6 +319,7 @@
 				DFB5470B1B02896B009CB8AE /* Launch Screen.xib in Resources */,
 				DFB5471B1B028CBA009CB8AE /* 4.jpg in Resources */,
 				DFB547191B028CBA009CB8AE /* 3.jpg in Resources */,
+				DF406DE71B029E94000D569E /* sublimer.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
