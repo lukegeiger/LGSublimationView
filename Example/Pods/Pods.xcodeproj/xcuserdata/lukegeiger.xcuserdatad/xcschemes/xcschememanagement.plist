@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>LGSublimationView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-LGSublimationView-LGSublimationView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-LGSublimationView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Tests-LGSublimationView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Tests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>2C2E15594F33F25B0E4C4637</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3F4FA345570749E93C85DA16</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6CA208E31F4493D1B6F04196</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8F060CC33EE56B15B9130955</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FD34289AD4C03F6891409268</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

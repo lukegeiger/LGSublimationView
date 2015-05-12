@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'LGSublimationView', :exclusive => true do
+  pod "LGSublimationView", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "LGSublimationView", :path => "../"
+
+  
+end

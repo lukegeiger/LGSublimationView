@@ -1,2 +1,29 @@
 # LGSublimationView
-The LGSublimationView is an alternative to the way a standard UIScrollView looks when paging. Instead of scrolling the background views of its content view, it just scrolls labels, and the background views 'sublime' from one to another. 
+
+[![CI Status](http://img.shields.io/travis/Luke Geiger/LGSublimationView.svg?style=flat)](https://travis-ci.org/Luke Geiger/LGSublimationView)
+[![Version](https://img.shields.io/cocoapods/v/LGSublimationView.svg?style=flat)](http://cocoapods.org/pods/LGSublimationView)
+[![License](https://img.shields.io/cocoapods/l/LGSublimationView.svg?style=flat)](http://cocoapods.org/pods/LGSublimationView)
+[![Platform](https://img.shields.io/cocoapods/p/LGSublimationView.svg?style=flat)](http://cocoapods.org/pods/LGSublimationView)
+
+## Usage
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+## Requirements
+
+## Installation
+
+LGSublimationView is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod "LGSublimationView"
+```
+
+## Author
+
+Luke Geiger, lukejamesgeiger@gmail.com
+
+## License
+
+LGSublimationView is available under the MIT license. See the LICENSE file for more info.
