@@ -4,7 +4,10 @@
 [![License](https://img.shields.io/cocoapods/l/LGSublimationView.svg?style=flat)](http://cocoapods.org/pods/LGSublimationView)
 [![Platform](https://img.shields.io/cocoapods/p/LGSublimationView.svg?style=flat)](http://cocoapods.org/pods/LGSublimationView)
 
-<img src="https://github.com/lukegeiger/LGSublimationView/blob/master/Example/images/sublimer.gif" alt="LukeGeigerSublimer">
+<p align="center">
+  <img src="https://github.com/lukegeiger/LGSublimationView/blob/master/Example/images/sublimer.gif" alt="LukeGeigerSublimer">
+</p>
+
 
 ## Usage
 
