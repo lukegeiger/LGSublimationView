@@ -8,6 +8,11 @@
   <img src="https://github.com/lukegeiger/LGSublimationView/blob/master/Example/images/sublimer.gif" alt="LukeGeigerSublimer">
 </p>
 
+## Introduction
+
+Literally, all this view is, is a view with a UIScrollView. The effect it gives off is that there are views behind the scroll view that don't scroll with the scroll view. Rather, when the scroll view pages, they cross disolve into one another. This view has the ability to also add titles, and descriptions to each of the views a part of its scroll view.
+
+The LGSublimationView is highly designed to be super lightweight, and customizable. All fonts, colors, etc are editable.
 
 ## Usage
 
