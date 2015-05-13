@@ -5,7 +5,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/LGSublimationView.svg?style=flat)](http://cocoapods.org/pods/LGSublimationView)
 
 <p align="center">
-  <img src="https://github.com/lukegeiger/LGSublimationView/blob/master/Example/images/sublimer.gif" alt="LukeGeigerSublimer">
+  <img src="https://raw.githubusercontent.com/lukegeiger/LGSublimationView/master/Example/images/geiger_sublimer.gif"alt="LukeGeigerSublimer">
 </p>
 
 ## Introduction
