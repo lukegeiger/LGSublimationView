@@ -44,14 +44,13 @@
         
         NSString *string = [titleStrings objectAtIndex:i-1];
         CGSize expectedSize = [string boundingRectWithSize:CGSizeMake(self.frame.size.width, MAXFLOAT) options:(NSStringDrawingUsesLineFragmentOrigin) attributes:@{NSFontAttributeName: _titleLabelFont} context:nil].size;
-        NSArray *lineArray = [string componentsSeparatedByString:@"\n"];
-        NSUInteger lineCount = lineArray.count;
         
-        UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake((i-1)*self.frame.size.width, _titleLabelY, self.frame.size.width, floor(expectedSize.height*lineCount))];
+        UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake((i-1)*self.frame.size.width, _titleLabelY, self.frame.size.width, floor(expectedSize.height))];
+        
+        label.lineBreakMode = NSLineBreakByCharWrapping;
         label.text = string;
+        label.numberOfLines = 0;
         label.textAlignment = NSTextAlignmentCenter;
-        label.lineBreakMode = NSLineBreakByWordWrapping;
-        label.numberOfLines = lineCount;
         label.textColor = _titleLabelTextColor;
         label.font = _titleLabelFont;
         
@@ -67,17 +66,16 @@
     for (int i = (int)descriptionStrings.count; i>0 ;i--) {
         
         NSString *string = [descriptionStrings objectAtIndex:i-1];
-        NSArray *lineArray = [string componentsSeparatedByString:@"\n"];
-        NSUInteger lineCount = lineArray.count;
         CGSize expectedSize = [string boundingRectWithSize:CGSizeMake(self.frame.size.width, MAXFLOAT) options:(NSStringDrawingUsesLineFragmentOrigin) attributes:@{NSFontAttributeName: _descriptionLabelFont} context:nil].size;
         
-        UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake((i-1)*self.frame.size.width, _descriptionLabelY, self.frame.size.width, floor(expectedSize.height*lineCount))];
+        UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake((i-1)*self.frame.size.width,_descriptionLabelY,self.frame.size.width,expectedSize.height)];
+        
+        label.lineBreakMode = NSLineBreakByCharWrapping;
         label.text = string;
+        label.numberOfLines = 0;
+        label.textAlignment = NSTextAlignmentCenter;
         label.textColor = _descriptionLabelTextColor;
         label.font = _descriptionLabelFont;
-        label.lineBreakMode = NSLineBreakByWordWrapping;
-        label.textAlignment = NSTextAlignmentCenter;
-        label.numberOfLines = lineCount;
         
         [_scrollView addSubview:label];
         [_descriptionLabelsArray addObject:label];
@@ -90,11 +88,9 @@
     for (UILabel*label in _titleLabelsArray) {
         
         NSString *string = label.text;
-        NSArray *lineArray = [string componentsSeparatedByString:@"\n"];
-        NSUInteger lineCount = lineArray.count;
         CGSize expectedSize = [string boundingRectWithSize:CGSizeMake(self.frame.size.width, MAXFLOAT) options:(NSStringDrawingUsesLineFragmentOrigin) attributes:@{NSFontAttributeName: _descriptionLabelFont} context:nil].size;
 
-        label.frame = CGRectMake(label.frame.origin.x, label.frame.origin.y, label.frame.size.width, floor(expectedSize.height*lineCount));
+        label.frame = CGRectMake(label.frame.origin.x, label.frame.origin.y, label.frame.size.width, floor(expectedSize.height));
         label.font = titleLabelFont;
     }
 }
@@ -105,11 +101,9 @@
     for (UILabel*label in _descriptionLabelsArray) {
         
         NSString *string = label.text;
-        NSArray *lineArray = [string componentsSeparatedByString:@"\n"];
-        NSUInteger lineCount = lineArray.count;
         CGSize expectedSize = [string boundingRectWithSize:CGSizeMake(self.frame.size.width, MAXFLOAT) options:(NSStringDrawingUsesLineFragmentOrigin) attributes:@{NSFontAttributeName: _descriptionLabelFont} context:nil].size;
-        
-        label.frame = CGRectMake(label.frame.origin.x, label.frame.origin.y, label.frame.size.width, floor(expectedSize.height*lineCount));
+
+        label.frame = CGRectMake(label.frame.origin.x, label.frame.origin.y, label.frame.size.width, floor(expectedSize.height));
         label.font = descriptionLabelFont;
     }
 }
@@ -151,6 +145,7 @@
 -(void)setFrame:(CGRect)frame
 {
     [super setFrame:frame];
+    
     _scrollView.frame = self.bounds;
     _scrollView.contentSize = CGSizeMake(self.frame.size.width*_viewsToSublime.count, self.frame.size.height);
     _titleLabelY = self.frame.size.height - 200;

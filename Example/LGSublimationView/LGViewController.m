@@ -40,10 +40,10 @@
                                 @"This is title two",
                                 @"This is title three",
                                 @"This is title four"];
-    lgSublimer.descriptionStrings = @[@"this is description one",
-                                      @"This is description two"
+    lgSublimer.descriptionStrings = @[@"This is a description of one",
+                                      @"This is description two and also happens to be multi line, which is sweet"
                                       ,@"This is description three",
-                                      @"This is description four"];
+                                      @"follow luke on twitter @lukejgeiger"];
     lgSublimer.viewsToSublime = views;
     [self.view addSubview:lgSublimer];
 }
