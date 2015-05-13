@@ -10,7 +10,7 @@
 
 ## Introduction
 
-Literally, all this view is, is a view with a UIScrollView. The effect it gives off is that there are views behind the scroll view that don't scroll with the scroll view. Rather, when the scroll view pages, they cross disolve into one another. This view has the ability to also add titles, and descriptions to each of the views a part of its scroll view.
+The LGSublimationView is a view with a UIScrollView. The effect it gives off is that there are views behind the scroll view that don't scroll with the scroll view. Rather, when the scroll view pages, they cross disolve into one another. This view has the ability to also add titles, and descriptions to each of the views a part of its scroll view.
 
 The LGSublimationView is designed to be super lightweight, and customizable. All fonts, colors, etc are editable.
 
@@ -31,7 +31,6 @@ To run the example project, clone the repo, and run `pod install` from the Examp
     
     lgSublimer.titleLabelTextColor = [UIColor whiteColor];
     lgSublimer.descriptionLabelTextColor = [UIColor whiteColor];
-    lgSublimer.delegate = self;
     lgSublimer.titleLabelFont = [UIFont fontWithName:@"HelveticaNeue-Light" size:20];
     lgSublimer.descriptionLabelFont = [UIFont fontWithName:@"HelveticaNeue-UltraLight" size:20];
   
@@ -46,7 +45,10 @@ To run the example project, clone the repo, and run `pod install` from the Examp
                                       @"This is description two and also happens to be multi line, which is sweet"
                                       ,@"This is description three",
                                       @"follow luke on twitter @lukejgeiger"];
+                               
+    //However many views in this array will be the number of pages on the scroll view.     
     lgSublimer.viewsToSublime = views;
+    lgSublimer.delegate = self;
     [self.view addSubview:lgSublimer];
 
 ```
