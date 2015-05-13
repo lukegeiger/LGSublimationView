@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FD34289AD4C03F6891409268"
+               BlueprintIdentifier = "BFD69B2F0995FCFD4C9EE8DB"
                BuildableName = "libPods-LGSublimationView-LGSublimationView.a"
                BlueprintName = "Pods-LGSublimationView-LGSublimationView"
                ReferencedContainer = "container:Pods.xcodeproj">
