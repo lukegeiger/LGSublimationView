@@ -1,6 +1,6 @@
 # LGSublimationView
 
-[![Build Status](https://img.shields.io/cocoapods/b/LGSublimationView.svg?style=flat)](https://travis-ci.org/lukegeiger/LGSublimationView)
+[![Build Status](http://img.shields.io/travis/lukegeiger/lgsublimationview.svg&style=flat)](https://travis-ci.org/lukegeiger/LGSublimationView)
 [![Version](https://img.shields.io/cocoapods/v/LGSublimationView.svg?style=flat)](http://cocoapods.org/pods/LGSublimationView)
 [![License](https://img.shields.io/cocoapods/l/LGSublimationView.svg?style=flat)](http://cocoapods.org/pods/LGSublimationView)
 [![Platform](https://img.shields.io/cocoapods/p/LGSublimationView.svg?style=flat)](http://cocoapods.org/pods/LGSublimationView)
