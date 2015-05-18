@@ -35,7 +35,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
         [views addObject:view];
     }
     
-    //Based on how many views are in this array, will determine how many times you can scroll the scroll view which applys the sublime effect.
+    //Based on how many views are in this array, will determine how many times you can scroll the scroll view which applies the sublime effect.
     lgSublimer.viewsToSublime = views;
 
     lgSublimer.titleLabelTextColor = [UIColor whiteColor];
