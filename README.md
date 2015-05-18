@@ -5,14 +5,15 @@
 [![Platform](https://img.shields.io/cocoapods/p/LGSublimationView.svg?style=flat)](http://cocoapods.org/pods/LGSublimationView)
 
 <p align="center">
-  <img src="https://github.com/lukegeiger/LGSublimationView/blob/master/Example/images/sublimer.gif" alt="LukeGeigerSublimer">
+  <img src="https://raw.githubusercontent.com/lukegeiger/LGSublimationView/master/Example/images/geiger_sublimer.gif"alt="LukeGeigerSublimer">
 </p>
 
 ## Introduction
 
-The LGSublimationView is a view with a UIScrollView. The effect it gives off is that there are views behind the scroll view that don't scroll with the scroll view. Rather, when the scroll view pages, they cross disolve into one another. This view has the ability to also add titles, and descriptions to each of the views a part of its scroll view.
+The LGSublimationView is a view that has a cool paging animation on its UIScrollView. The effect it gives off is that there are views behind the scroll view that don't scroll with the scroll view. Rather, when the scroll view pages, they cross disolve into one another.
 
-The LGSublimationView is designed to be super lightweight, and customizable. All fonts, colors, etc are editable.
+- This view has the ability to also add titles, and descriptions to each of the views a part of its scroll view.
+- Super lightweight, and customizable. All fonts, colors, etc are editable.
 
 ## Usage
 
@@ -23,9 +24,9 @@ To run the example project, clone the repo, and run `pod install` from the Examp
     LGSublimationView *lgSublimer = [[LGSublimationView alloc]initWithFrame:self.view.bounds];
     
     NSMutableArray*views = [NSMutableArray new];
-    for (int i  = 0; i<4; i++) {
+    for (int i  = 1; i<=4; i++) {
         UIImageView *view = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
-        view.image = [UIImage imageNamed:[NSString stringWithFormat:@"%i.jpg",i+1]];
+        view.image = [UIImage imageNamed:[NSString stringWithFormat:@"%i.jpg",i]];
         [views addObject:view];
     }
     
