@@ -38,7 +38,6 @@ LGSublimationView *lgSublimer = [[LGSublimationView alloc]initWithFrame:self.vie
     //Based on how many views are in this array, will determine how many times you can scroll the scroll view which applys the sublime effect.
     lgSublimer.viewsToSublime = views;
 
-    
     lgSublimer.titleLabelTextColor = [UIColor whiteColor];
     lgSublimer.descriptionLabelTextColor = [UIColor whiteColor];
     lgSublimer.titleLabelFont = [UIFont fontWithName:@"HelveticaNeue-Light" size:20];
