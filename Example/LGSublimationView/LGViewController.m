@@ -28,6 +28,7 @@
     for (int i  = 1; i<=4; i++) {
         UIImageView *view = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
         view.image = [UIImage imageNamed:[NSString stringWithFormat:@"%i.jpg",i]];
+        view.contentMode = UIViewContentModeScaleAspectFill;
         [views addObject:view];
     }
     
@@ -44,7 +45,16 @@
                                       @"This is description two and also happens to be multi line, which is sweet"
                                       ,@"This is description three",
                                       @"follow luke on twitter @lukejgeiger"];
+    
+    
     lgSublimer.viewsToSublime = views;
+    
+    UIView* shadeView = [[UIView alloc]initWithFrame:lgSublimer.frame];
+    shadeView.backgroundColor = [UIColor blackColor];
+    shadeView.alpha = .5;
+    
+    lgSublimer.inbetweenView = shadeView;
+    
     [self.view addSubview:lgSublimer];
 }
 

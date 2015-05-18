@@ -32,8 +32,15 @@
     
     _pageControl.numberOfPages = viewsToSublime.count;
     _scrollView.contentSize = CGSizeMake(self.frame.size.width*viewsToSublime.count, self.frame.size.height);
+    [self addSubview:_inbetweenView];
     [self addSubview:_scrollView];
     [self addSubview:_pageControl];
+}
+
+-(void)setInbetweenView:(UIView *)inbetweenView
+{
+    _inbetweenView = inbetweenView;
+    [self insertSubview:_inbetweenView belowSubview:_scrollView];
 }
 
 -(void)setTitleStrings:(NSArray *)titleStrings
@@ -89,7 +96,7 @@
         
         NSString *string = label.text;
         CGSize expectedSize = [string boundingRectWithSize:CGSizeMake(self.frame.size.width, MAXFLOAT) options:(NSStringDrawingUsesLineFragmentOrigin) attributes:@{NSFontAttributeName: _descriptionLabelFont} context:nil].size;
-
+        
         label.frame = CGRectMake(label.frame.origin.x, label.frame.origin.y, label.frame.size.width, floor(expectedSize.height));
         label.font = titleLabelFont;
     }
@@ -102,7 +109,7 @@
         
         NSString *string = label.text;
         CGSize expectedSize = [string boundingRectWithSize:CGSizeMake(self.frame.size.width, MAXFLOAT) options:(NSStringDrawingUsesLineFragmentOrigin) attributes:@{NSFontAttributeName: _descriptionLabelFont} context:nil].size;
-
+        
         label.frame = CGRectMake(label.frame.origin.x, label.frame.origin.y, label.frame.size.width, floor(expectedSize.height));
         label.font = descriptionLabelFont;
     }
@@ -182,7 +189,7 @@
     return self;
 }
 
-#pragma mark - Settings 
+#pragma mark - Settings
 
 -(void)defaultSettings
 {
@@ -213,10 +220,10 @@
 {
     int currentPage = self.currentPage;
     int nextPage = (scrollView.contentOffset.x >= self.lastXOffset)?currentPage + 1:currentPage - 1;
-
+    
     float max = currentPage * scrollView.frame.size.width;
     float min = (currentPage - 2) * scrollView.frame.size.width;
-
+    
     if (scrollView.contentOffset.x > max) {
         [scrollView setContentOffset:CGPointMake(max - 0.5, scrollView.contentOffset.y)];
     }
@@ -226,7 +233,7 @@
     
     UIView *currentPageView = [self viewWithTag:currentPage];
     UIView *nextPageView = [self viewWithTag:nextPage];
-
+    
     float adjustedOffsetForPage = scrollView.contentOffset.x - (scrollView.frame.size.width*(currentPage-1));
     float maxOffset = scrollView.frame.size.width;
     float percentageScrolledOnCurrentPage = fabs(adjustedOffsetForPage/maxOffset);
