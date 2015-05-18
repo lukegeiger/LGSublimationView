@@ -21,35 +21,49 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ```objective-c
     //This is an example.
-    LGSublimationView *lgSublimer = [[LGSublimationView alloc]initWithFrame:self.view.bounds];
+LGSublimationView *lgSublimer = [[LGSublimationView alloc]initWithFrame:self.view.bounds];
     
+    //Optional protocol methods
+    lgSublimer.delegate = self;
+
+    //This is just for the purposes of the demo. You probably wouldn't do this.
     NSMutableArray*views = [NSMutableArray new];
     for (int i  = 1; i<=4; i++) {
         UIImageView *view = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
         view.image = [UIImage imageNamed:[NSString stringWithFormat:@"%i.jpg",i]];
+        view.contentMode = UIViewContentModeScaleAspectFill;
         [views addObject:view];
     }
+    
+    //Based on how many views are in this array, will determine how many times you can scroll the scroll view which applys the sublime effect.
+    lgSublimer.viewsToSublime = views;
+
     
     lgSublimer.titleLabelTextColor = [UIColor whiteColor];
     lgSublimer.descriptionLabelTextColor = [UIColor whiteColor];
     lgSublimer.titleLabelFont = [UIFont fontWithName:@"HelveticaNeue-Light" size:20];
     lgSublimer.descriptionLabelFont = [UIFont fontWithName:@"HelveticaNeue-UltraLight" size:20];
-  
+    
     //Titles are optional
     lgSublimer.titleStrings = @[@"This is title one",
                                 @"This is title two",
                                 @"This is title three",
                                 @"This is title four"];
-                                
+    
     //Descriptions are optional
     lgSublimer.descriptionStrings = @[@"This is a description of one",
                                       @"This is description two and also happens to be multi line, which is sweet"
                                       ,@"This is description three",
                                       @"follow luke on twitter @lukejgeiger"];
-                               
-    //However many views in this array will be the number of pages on the scroll view.     
-    lgSublimer.viewsToSublime = views;
-    lgSublimer.delegate = self;
+    
+    
+    
+    // An optional assign property on the LGSublimer. You can use this if your views are images. It helps make the text appear more readable if there is a slight black tint over the view.
+    UIView* shadeView = [[UIView alloc]initWithFrame:lgSublimer.frame];
+    shadeView.backgroundColor = [UIColor blackColor];
+    shadeView.alpha = .5;
+    lgSublimer.inbetweenView = shadeView;
+    
     [self.view addSubview:lgSublimer];
 
 ```
