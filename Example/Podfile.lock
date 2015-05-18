@@ -1,5 +1,5 @@
 PODS:
-  - LGSublimationView (0.2.0)
+  - LGSublimationView (0.3.0)
 
 DEPENDENCIES:
   - LGSublimationView (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  LGSublimationView: b9eb8e798cbb1729721a90641afbe6f5d82f7960
+  LGSublimationView: 4fe38e7273bcf68f4ec61b1353d4ae222bc1185a
 
 COCOAPODS: 0.35.0

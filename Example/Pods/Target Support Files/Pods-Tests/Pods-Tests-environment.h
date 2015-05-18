@@ -9,6 +9,6 @@
 // LGSublimationView
 #define COCOAPODS_POD_AVAILABLE_LGSublimationView
 #define COCOAPODS_VERSION_MAJOR_LGSublimationView 0
-#define COCOAPODS_VERSION_MINOR_LGSublimationView 2
+#define COCOAPODS_VERSION_MINOR_LGSublimationView 3
 #define COCOAPODS_VERSION_PATCH_LGSublimationView 0
 
