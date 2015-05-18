@@ -21,7 +21,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ```objective-c
     //This is an example.
-LGSublimationView *lgSublimer = [[LGSublimationView alloc]initWithFrame:self.view.bounds];
+    LGSublimationView *lgSublimer = [[LGSublimationView alloc]initWithFrame:self.view.bounds];
     
     //Optional protocol methods
     lgSublimer.delegate = self;
