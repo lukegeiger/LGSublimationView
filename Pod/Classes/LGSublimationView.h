@@ -68,7 +68,13 @@
 /**
  This is an assinable view that is above the background, but below the scroll view. A common use case would be to assign this to a view with a alpha less than 1 to act as a shade over the view.
  */
-@property (nonatomic, assign) UIView *inbetweenView;
+@property (nonatomic, weak) UIView *inbetweenView;
+
+/**
+ This is an assinable view that is above the background, but below the scroll view. A common use case would be to assign this to a view with a alpha less than 1 to act as a shade over the view.
+ */
+@property (nonatomic, assign) BOOL isInfinite;
+
 
 /**
  The Delegate.
