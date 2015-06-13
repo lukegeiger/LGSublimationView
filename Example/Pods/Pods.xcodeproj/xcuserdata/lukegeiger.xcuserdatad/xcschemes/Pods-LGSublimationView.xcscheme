@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0510"
+   LastUpgradeVersion = "0640"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C98458E25CC5F1ED4BF72E16"
+               BlueprintIdentifier = "3BEDF0523F9FC14E1CA42001"
                BuildableName = "libPods-LGSublimationView.a"
                BlueprintName = "Pods-LGSublimationView"
                ReferencedContainer = "container:Pods.xcodeproj">

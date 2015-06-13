@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>LGSublimationView.xcscheme</key>
+		<key>Pods-LGSublimationView-LGSublimationView-LGSublimationView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -15,6 +15,11 @@
 			<false/>
 		</dict>
 		<key>Pods-LGSublimationView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Tests-LGSublimationView-LGSublimationView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -32,27 +37,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>23FD535DF1B38AAEA2436C0B</key>
+		<key>0677A99B304A61649D60D764</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>480B782B3558BF9426C763A1</key>
+		<key>2417881ADB86ECC92C3AFAA1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9E1403921819CA2027986D70</key>
+		<key>3BEDF0523F9FC14E1CA42001</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C98458E25CC5F1ED4BF72E16</key>
+		<key>9822F62BE9D0078F4F6C3CD7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FE58F17E691736AE5E8F7E2E</key>
+		<key>CB7126181D245B9942B2DDEA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E56AFE7C724541E2A97BA2A7</key>
 		<dict>
 			<key>primary</key>
 			<true/>

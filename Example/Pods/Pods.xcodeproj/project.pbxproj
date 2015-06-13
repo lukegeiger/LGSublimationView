@@ -1,1755 +1,840 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>00AC3528CD10C198E6C3620D</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>863B5E4B45144890C0704E89</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-LGSublimationView-LGSublimationView/Pods-LGSublimationView-LGSublimationView-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>02600D3B44C0AAB5B12D94D0</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>0280C55F25B3DED7C27C8350</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>F03E3554904706CF6A753436</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>9E1403921819CA2027986D70</string>
-			<key>remoteInfo</key>
-			<string>Pods-Tests-LGSublimationView</string>
-		</dict>
-		<key>08EE2C490B5AAF9742BED3CA</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9E8AB5960226246F157374B2</string>
-				<string>94879504C8DC2A4F8E230A54</string>
-				<string>B98580D4DD069013EA238AD5</string>
-				<string>A1557E3439682357AC0BE264</string>
-				<string>D3166D575DF390D72F2A2B09</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0A8F5F7D0E1FD52C939E9221</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C7576641AFBF6423E9F2AEBD</string>
-				<string>863B5E4B45144890C0704E89</string>
-				<string>FFE4CCE3E486EB11DA4BA4C2</string>
-				<string>7AA9A72C7C367119181C0747</string>
-				<string>15313D8CE8CE1C195CE30762</string>
-				<string>EC063D8B78EA3E1A117D6E7B</string>
-				<string>BB364F3818695EF26AAEFEDD</string>
-				<string>6A5E2947388AE6338B097F3F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>Example/Pods/Target Support Files/Pods-LGSublimationView-LGSublimationView</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>10CAB26F5194D8DFF048E95F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Tests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>110C26165EEF2E205CD74183</key>
-		<dict>
-			<key>fileRef</key>
-			<string>64708C1C6B3D0F2732E61AC0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>14F5B01C265C9F03125653ED</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-LGSublimationView-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>15313D8CE8CE1C195CE30762</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-Tests-LGSublimationView.xcconfig</string>
-			<key>path</key>
-			<string>../Pods-Tests-LGSublimationView/Pods-Tests-LGSublimationView.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1C7750B55D86E26F0C65289C</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-Tests.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>1E562B3523A8B8E628922ADE</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>22202F7B676A7F3C50238870</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2DD6037E67A1B34A9FD8482E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>23FD535DF1B38AAEA2436C0B</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>A109CBA37DE3B266503454A5</string>
-			<key>buildPhases</key>
-			<array>
-				<string>25DC8CBC83BB0DA942D0D109</string>
-				<string>25D782B867EBA44B5A9A7DFD</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>510881A4A63279B15F36ED37</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Tests</string>
-			<key>productName</key>
-			<string>Pods-Tests</string>
-			<key>productReference</key>
-			<string>1C7750B55D86E26F0C65289C</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>25D782B867EBA44B5A9A7DFD</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>DB30497E2079A72824D43082</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>25DC8CBC83BB0DA942D0D109</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>72F0677CE0499C8E7864A6DD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>2651627403921201B8E7E9A3</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>LGSublimationView</string>
-			<key>target</key>
-			<string>480B782B3558BF9426C763A1</string>
-			<key>targetProxy</key>
-			<string>FE0D4D13B4440BF09DDCB43B</string>
-		</dict>
-		<key>2DD6037E67A1B34A9FD8482E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>LGSublimationView.m</string>
-			<key>path</key>
-			<string>Pod/Classes/LGSublimationView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>306118FC2F23715D0E49B7C8</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>3946D87AE1B1D26D17DE2AB5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>34A68858FD240F1285CD646B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>36123C1A8861CB1064A3BD1B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>LGSublimationView</string>
-			<key>target</key>
-			<string>480B782B3558BF9426C763A1</string>
-			<key>targetProxy</key>
-			<string>C83654919DF7526A5CAFDFC5</string>
-		</dict>
-		<key>3946D87AE1B1D26D17DE2AB5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>14F5B01C265C9F03125653ED</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3F194C49722499B423031AFF</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-LGSublimationView-LGSublimationView</string>
-			<key>target</key>
-			<string>FE58F17E691736AE5E8F7E2E</string>
-			<key>targetProxy</key>
-			<string>B8C492289617CC600F4A342D</string>
-		</dict>
-		<key>4316576D6CB690F13D8707B2</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>91A5226109407766ACD3396E</string>
-				<string>A26F91DFBC5AD87813810C63</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>44300A976E4463F501541ED8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>64708C1C6B3D0F2732E61AC0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>468B68A04088863EF6C81995</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>863B5E4B45144890C0704E89</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-LGSublimationView-LGSublimationView/Pods-LGSublimationView-LGSublimationView-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>480B782B3558BF9426C763A1</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>E969FCDA28C41693354F8AD8</string>
-			<key>buildPhases</key>
-			<array>
-				<string>953573A0D5AFE95C3AD7AECD</string>
-				<string>B9C64FBB32B10E4B6EB5807B</string>
-				<string>AD45036953EF66200C7F3C08</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>LGSublimationView</string>
-			<key>productName</key>
-			<string>LGSublimationView</string>
-			<key>productReference</key>
-			<string>C8FFBC65200FA51EFDD2FF8C</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle</string>
-		</dict>
-		<key>4A79E74B2E37B974AAE1FFBB</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>4F9406F1C2656A07D930BB9E</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>4F9406F1C2656A07D930BB9E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-LGSublimationView.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>50FC1519CAF9318E603A3F24</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>64708C1C6B3D0F2732E61AC0</string>
-				<string>2DD6037E67A1B34A9FD8482E</string>
-				<string>0A8F5F7D0E1FD52C939E9221</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>LGSublimationView</string>
-			<key>path</key>
-			<string>../..</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>510881A4A63279B15F36ED37</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-Tests-LGSublimationView</string>
-			<key>target</key>
-			<string>9E1403921819CA2027986D70</string>
-			<key>targetProxy</key>
-			<string>0280C55F25B3DED7C27C8350</string>
-		</dict>
-		<key>54C5F34F6D4279664A2C72BF</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>22202F7B676A7F3C50238870</string>
-				<string>CAE0625570EE9171DBAA56E7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>550F3CDB8B323E8E48756461</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-LGSublimationView-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5A475234FFCF428A43EDFC33</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F1456A874EFFB8A207B80050</string>
-				<string>BA0589F199B69D95929F4A5C</string>
-				<string>14F5B01C265C9F03125653ED</string>
-				<string>550F3CDB8B323E8E48756461</string>
-				<string>BDA967A472E1F4D9F67F73F6</string>
-				<string>4F9406F1C2656A07D930BB9E</string>
-				<string>A7B18BE17D6DE7642305AF1A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-LGSublimationView</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-LGSublimationView</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>636BB6CAC98565FAA4233623</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>44300A976E4463F501541ED8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>64708C1C6B3D0F2732E61AC0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>LGSublimationView.h</string>
-			<key>path</key>
-			<string>Pod/Classes/LGSublimationView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>66DF8D587B3521CDA7690D95</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D58DD7206A3827DCA4B92C6A</string>
-				<string>8349CA7086FE7B80CDFB21D8</string>
-				<string>71A195C8C657266B4682CB1D</string>
-				<string>6C6F1F8416A176C7A7D957B5</string>
-				<string>D8F7E9102A106B4EBA158D1A</string>
-				<string>10CAB26F5194D8DFF048E95F</string>
-				<string>7584AE02CB3632DE91AECD94</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-Tests</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-Tests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6A5E2947388AE6338B097F3F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>Pods-Tests-LGSublimationView-prefix.pch</string>
-			<key>path</key>
-			<string>../Pods-Tests-LGSublimationView/Pods-Tests-LGSublimationView-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6AA83D14671D9465B643543E</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>A7B18BE17D6DE7642305AF1A</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>6C6F1F8416A176C7A7D957B5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-Tests-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6DC7A13AC9F1341409079821</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>110C26165EEF2E205CD74183</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>71A195C8C657266B4682CB1D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-Tests-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>72F0677CE0499C8E7864A6DD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>71A195C8C657266B4682CB1D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7584AE02CB3632DE91AECD94</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Tests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7AA9A72C7C367119181C0747</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-LGSublimationView-LGSublimationView-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7DF34FB533D4DCFAC702F4F1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>34A68858FD240F1285CD646B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8349CA7086FE7B80CDFB21D8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-Tests-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8350FFAD0747C9EDE9E2D3AD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>34A68858FD240F1285CD646B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>863B5E4B45144890C0704E89</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-LGSublimationView-LGSublimationView-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>90219E039AA74F795EEF4E5D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8350FFAD0747C9EDE9E2D3AD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>91A5226109407766ACD3396E</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>94879504C8DC2A4F8E230A54</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>50FC1519CAF9318E603A3F24</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Development Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>953573A0D5AFE95C3AD7AECD</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>9E1403921819CA2027986D70</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>A2F104CFED289F883ABBF70A</string>
-			<key>buildPhases</key>
-			<array>
-				<string>54C5F34F6D4279664A2C72BF</string>
-				<string>DEC27BDD9B242A96AB5BD979</string>
-				<string>6DC7A13AC9F1341409079821</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>36123C1A8861CB1064A3BD1B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Tests-LGSublimationView</string>
-			<key>productName</key>
-			<string>Pods-Tests-LGSublimationView</string>
-			<key>productReference</key>
-			<string>B330E6E9BA99FAC25F1C1B9C</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>9E8AB5960226246F157374B2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>A109CBA37DE3B266503454A5</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>C300C6385617BD1A8DE3620E</string>
-				<string>A23943BDBF8D8C0398C747FC</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>A1557E3439682357AC0BE264</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C8FFBC65200FA51EFDD2FF8C</string>
-				<string>D734D71B34032C0644D498FD</string>
-				<string>DEAD26F58BB434375889D827</string>
-				<string>1C7750B55D86E26F0C65289C</string>
-				<string>B330E6E9BA99FAC25F1C1B9C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A23943BDBF8D8C0398C747FC</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>7584AE02CB3632DE91AECD94</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>A26F91DFBC5AD87813810C63</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>RELEASE=1</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>A2F104CFED289F883ABBF70A</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>F839374D57AF52BE242D7D49</string>
-				<string>E99E0316EEE57B1E4236D328</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>A305034B1BA213B2B61425E3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>34A68858FD240F1285CD646B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A7B18BE17D6DE7642305AF1A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-LGSublimationView.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AA5415140E1FC12E2634E72F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>FB101E9D58B41246C18E0CE5</string>
-				<string>DD7EE84865E14313F09C9676</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>AD45036953EF66200C7F3C08</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>B330E6E9BA99FAC25F1C1B9C</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-Tests-LGSublimationView.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>B8C492289617CC600F4A342D</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>F03E3554904706CF6A753436</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>FE58F17E691736AE5E8F7E2E</string>
-			<key>remoteInfo</key>
-			<string>Pods-LGSublimationView-LGSublimationView</string>
-		</dict>
-		<key>B98580D4DD069013EA238AD5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E690D321C74868D4E14356CB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B9C64FBB32B10E4B6EB5807B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>BA0589F199B69D95929F4A5C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-LGSublimationView-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BB364F3818695EF26AAEFEDD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>Pods-Tests-LGSublimationView-dummy.m</string>
-			<key>path</key>
-			<string>../Pods-Tests-LGSublimationView/Pods-Tests-LGSublimationView-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BDA967A472E1F4D9F67F73F6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-LGSublimationView-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C300C6385617BD1A8DE3620E</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>10CAB26F5194D8DFF048E95F</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>C7576641AFBF6423E9F2AEBD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-LGSublimationView-LGSublimationView.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C83654919DF7526A5CAFDFC5</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>F03E3554904706CF6A753436</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>480B782B3558BF9426C763A1</string>
-			<key>remoteInfo</key>
-			<string>LGSublimationView</string>
-		</dict>
-		<key>C8FFBC65200FA51EFDD2FF8C</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>LGSublimationView.bundle</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>C98458E25CC5F1ED4BF72E16</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>CE1B46B14060A06B60BDC8D3</string>
-			<key>buildPhases</key>
-			<array>
-				<string>306118FC2F23715D0E49B7C8</string>
-				<string>EF59E6A1671082558E901C8E</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>3F194C49722499B423031AFF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-LGSublimationView</string>
-			<key>productName</key>
-			<string>Pods-LGSublimationView</string>
-			<key>productReference</key>
-			<string>D734D71B34032C0644D498FD</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>CAE0625570EE9171DBAA56E7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BB364F3818695EF26AAEFEDD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>CDAB0B8D65486CF6D7B72822</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>468B68A04088863EF6C81995</string>
-				<string>00AC3528CD10C198E6C3620D</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>CE1B46B14060A06B60BDC8D3</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>4A79E74B2E37B974AAE1FFBB</string>
-				<string>6AA83D14671D9465B643543E</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>D3166D575DF390D72F2A2B09</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5A475234FFCF428A43EDFC33</string>
-				<string>66DF8D587B3521CDA7690D95</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D58DD7206A3827DCA4B92C6A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-Tests-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D734D71B34032C0644D498FD</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-LGSublimationView.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>D8F7E9102A106B4EBA158D1A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-Tests-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DB30497E2079A72824D43082</key>
-		<dict>
-			<key>fileRef</key>
-			<string>34A68858FD240F1285CD646B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DD7EE84865E14313F09C9676</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FFE4CCE3E486EB11DA4BA4C2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DEAD26F58BB434375889D827</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-LGSublimationView-LGSublimationView.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>DEC27BDD9B242A96AB5BD979</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>A305034B1BA213B2B61425E3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E690D321C74868D4E14356CB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>34A68858FD240F1285CD646B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E969FCDA28C41693354F8AD8</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>1E562B3523A8B8E628922ADE</string>
-				<string>02600D3B44C0AAB5B12D94D0</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>E99E0316EEE57B1E4236D328</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>EC063D8B78EA3E1A117D6E7B</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-Tests-LGSublimationView/Pods-Tests-LGSublimationView-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>EC063D8B78EA3E1A117D6E7B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-Tests-LGSublimationView-Private.xcconfig</string>
-			<key>path</key>
-			<string>../Pods-Tests-LGSublimationView/Pods-Tests-LGSublimationView-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EF59E6A1671082558E901C8E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>7DF34FB533D4DCFAC702F4F1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>F03E3554904706CF6A753436</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>4316576D6CB690F13D8707B2</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>08EE2C490B5AAF9742BED3CA</string>
-			<key>productRefGroup</key>
-			<string>A1557E3439682357AC0BE264</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>480B782B3558BF9426C763A1</string>
-				<string>C98458E25CC5F1ED4BF72E16</string>
-				<string>FE58F17E691736AE5E8F7E2E</string>
-				<string>23FD535DF1B38AAEA2436C0B</string>
-				<string>9E1403921819CA2027986D70</string>
-			</array>
-		</dict>
-		<key>F1456A874EFFB8A207B80050</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-LGSublimationView-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F839374D57AF52BE242D7D49</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>EC063D8B78EA3E1A117D6E7B</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-Tests-LGSublimationView/Pods-Tests-LGSublimationView-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>FB101E9D58B41246C18E0CE5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2DD6037E67A1B34A9FD8482E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FE0D4D13B4440BF09DDCB43B</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>F03E3554904706CF6A753436</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>480B782B3558BF9426C763A1</string>
-			<key>remoteInfo</key>
-			<string>LGSublimationView</string>
-		</dict>
-		<key>FE58F17E691736AE5E8F7E2E</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>CDAB0B8D65486CF6D7B72822</string>
-			<key>buildPhases</key>
-			<array>
-				<string>AA5415140E1FC12E2634E72F</string>
-				<string>90219E039AA74F795EEF4E5D</string>
-				<string>636BB6CAC98565FAA4233623</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>2651627403921201B8E7E9A3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-LGSublimationView-LGSublimationView</string>
-			<key>productName</key>
-			<string>Pods-LGSublimationView-LGSublimationView</string>
-			<key>productReference</key>
-			<string>DEAD26F58BB434375889D827</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>FFE4CCE3E486EB11DA4BA4C2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-LGSublimationView-LGSublimationView-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>F03E3554904706CF6A753436</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0641A56A0B7CBA3BDB2BB9C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 505852975BA192CB89512BEF /* Foundation.framework */; };
+		2DCA865348F529050CF5846F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 505852975BA192CB89512BEF /* Foundation.framework */; };
+		3946201D6BA288A4966E2FB6 /* LGSublimationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 77A8798897E92DBB90C4298A /* LGSublimationView.h */; };
+		3C2E2E07F5DE60A2CA1EAD6B /* LGSublimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7B43617AE575571ABF90EC /* LGSublimationView.m */; };
+		494D49D936476692AD160F2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 505852975BA192CB89512BEF /* Foundation.framework */; };
+		6ACB254836298AD0E173398E /* Pods-LGSublimationView-LGSublimationView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A73E3F8BAE11C8FF0FDD63A5 /* Pods-LGSublimationView-LGSublimationView-dummy.m */; };
+		700009C2E734C199283275C7 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9326A0DEA001B36E0EE5CFA0 /* Pods-Tests-dummy.m */; };
+		8AA8D38004EDB2F3FE02ED3E /* LGSublimationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 77A8798897E92DBB90C4298A /* LGSublimationView.h */; };
+		ADDC41CCDCEB657FCC5C1F5D /* Pods-LGSublimationView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6ADBC5A2270B53C6D9478E /* Pods-LGSublimationView-dummy.m */; };
+		CA02CE8BF82E29542B7FB436 /* Pods-Tests-LGSublimationView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9505FCB2C53DE229B6AB0E4F /* Pods-Tests-LGSublimationView-dummy.m */; };
+		D856D8BC31B4BAF2B7E24957 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 505852975BA192CB89512BEF /* Foundation.framework */; };
+		DAC0512C51ECDEDFAB8A2C88 /* LGSublimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7B43617AE575571ABF90EC /* LGSublimationView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FA59C0DF83CFDF519FF10E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8920C2D422E03505C9F2467A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9822F62BE9D0078F4F6C3CD7;
+			remoteInfo = "Pods-LGSublimationView-LGSublimationView";
+		};
+		38CD0E70DBF2542907B67F1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8920C2D422E03505C9F2467A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0677A99B304A61649D60D764;
+			remoteInfo = "Pods-Tests-LGSublimationView-LGSublimationView";
+		};
+		491F034E2CDD33C540F7B8C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8920C2D422E03505C9F2467A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E56AFE7C724541E2A97BA2A7;
+			remoteInfo = "Pods-LGSublimationView-LGSublimationView-LGSublimationView";
+		};
+		90D649936A6BB161467E6BD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8920C2D422E03505C9F2467A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2417881ADB86ECC92C3AFAA1;
+			remoteInfo = "Pods-Tests-LGSublimationView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		001E2459BAD689E65CF49F1C /* libPods-LGSublimationView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LGSublimationView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02903491B6FF901C26979B15 /* Pods-LGSublimationView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGSublimationView.debug.xcconfig"; sourceTree = "<group>"; };
+		08FCEA3F4181391FDB91ED1D /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0F0A7544CA8DEF7695C8D1EC /* libPods-Tests-LGSublimationView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-LGSublimationView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		117221AC2ABEFF110EA40885 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2516D34378AF54B4F7A4CAE4 /* LGSublimationView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGSublimationView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		34F69575ACD934A6B5A3E91E /* Pods-LGSublimationView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LGSublimationView-acknowledgements.plist"; sourceTree = "<group>"; };
+		491ED69F6C5C2C3D19FE0539 /* Pods-Tests-LGSublimationView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-LGSublimationView.xcconfig"; path = "../Pods-Tests-LGSublimationView/Pods-Tests-LGSublimationView.xcconfig"; sourceTree = "<group>"; };
+		505852975BA192CB89512BEF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		57263CBF53453B198B55BEDD /* Pods-LGSublimationView-LGSublimationView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGSublimationView-LGSublimationView.xcconfig"; sourceTree = "<group>"; };
+		63048EC2ACAED36AF47F5D57 /* Pods-Tests-LGSublimationView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-LGSublimationView-prefix.pch"; path = "../Pods-Tests-LGSublimationView/Pods-Tests-LGSublimationView-prefix.pch"; sourceTree = "<group>"; };
+		77A8798897E92DBB90C4298A /* LGSublimationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LGSublimationView.h; sourceTree = "<group>"; };
+		7E8D3FBF5455BAEA24DAAFF1 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8A33913F553229AFA60CE4FB /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9174A18280321BBD3CB32413 /* Pods-LGSublimationView-LGSublimationView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LGSublimationView-LGSublimationView-prefix.pch"; sourceTree = "<group>"; };
+		9326A0DEA001B36E0EE5CFA0 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		9505FCB2C53DE229B6AB0E4F /* Pods-Tests-LGSublimationView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-LGSublimationView-dummy.m"; path = "../Pods-Tests-LGSublimationView/Pods-Tests-LGSublimationView-dummy.m"; sourceTree = "<group>"; };
+		9B7B43617AE575571ABF90EC /* LGSublimationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LGSublimationView.m; sourceTree = "<group>"; };
+		9BFF9BDD91786695A73BF31E /* Pods-LGSublimationView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGSublimationView.release.xcconfig"; sourceTree = "<group>"; };
+		A4F4CF2FF45334F6CEF4F050 /* Pods-LGSublimationView-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGSublimationView-resources.sh"; sourceTree = "<group>"; };
+		A73E3F8BAE11C8FF0FDD63A5 /* Pods-LGSublimationView-LGSublimationView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LGSublimationView-LGSublimationView-dummy.m"; sourceTree = "<group>"; };
+		A9DDF902C4E20FE25D668720 /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
+		AF6ADBC5A2270B53C6D9478E /* Pods-LGSublimationView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LGSublimationView-dummy.m"; sourceTree = "<group>"; };
+		BCFA74B53BE7A8660124C449 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C4E065813447476A8793EF78 /* libPods-LGSublimationView-LGSublimationView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LGSublimationView-LGSublimationView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC5E8F656A0EF76E5CCD2D4D /* LGSublimationView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGSublimationView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D95870644D9CFF9CB3EDD945 /* Pods-LGSublimationView-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LGSublimationView-environment.h"; sourceTree = "<group>"; };
+		DF4F797692F92685F8FFFBC5 /* Pods-LGSublimationView-LGSublimationView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGSublimationView-LGSublimationView-Private.xcconfig"; sourceTree = "<group>"; };
+		E8D35E65089BADF02998C37E /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		EC1A52EA064F11AFC97D778B /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F17F5D2D63A415D8F6876A3C /* Pods-Tests-LGSublimationView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-LGSublimationView-Private.xcconfig"; path = "../Pods-Tests-LGSublimationView/Pods-Tests-LGSublimationView-Private.xcconfig"; sourceTree = "<group>"; };
+		FEE6A99AA8C8068F58F9F08D /* Pods-LGSublimationView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LGSublimationView-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25D5E404943E0867E3ED44CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45AA593A47F8F6C9845889AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49B9ECC33F0256B4B4F8ECCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCA865348F529050CF5846F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5697E572C252285FA868076 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494D49D936476692AD160F2F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDFBFA3DDD28FBE813FE71BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D856D8BC31B4BAF2B7E24957 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C109AD3B30B8B966EEA92FB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0641A56A0B7CBA3BDB2BB9C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04C25A717BAFFE2B49526B1F /* Pods-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EC1A52EA064F11AFC97D778B /* Pods-Tests-acknowledgements.markdown */,
+				8A33913F553229AFA60CE4FB /* Pods-Tests-acknowledgements.plist */,
+				9326A0DEA001B36E0EE5CFA0 /* Pods-Tests-dummy.m */,
+				A9DDF902C4E20FE25D668720 /* Pods-Tests-environment.h */,
+				E8D35E65089BADF02998C37E /* Pods-Tests-resources.sh */,
+				08FCEA3F4181391FDB91ED1D /* Pods-Tests.debug.xcconfig */,
+				7E8D3FBF5455BAEA24DAAFF1 /* Pods-Tests.release.xcconfig */,
+			);
+			name = "Pods-Tests";
+			path = "Target Support Files/Pods-Tests";
+			sourceTree = "<group>";
+		};
+		074EAD1B1D4CC2A71B406836 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8F57EF449CECB33B61A48C8F /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		1D4326BBA03FFADC3B20C423 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8399347E2D3A06453C6DD39 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		436DC08EAD7B559F42AE77AA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BBFC633321A272AAC8502761 /* LGSublimationView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		48C729CAFDCDF6CB04F19D11 /* Pods-LGSublimationView */ = {
+			isa = PBXGroup;
+			children = (
+				FEE6A99AA8C8068F58F9F08D /* Pods-LGSublimationView-acknowledgements.markdown */,
+				34F69575ACD934A6B5A3E91E /* Pods-LGSublimationView-acknowledgements.plist */,
+				AF6ADBC5A2270B53C6D9478E /* Pods-LGSublimationView-dummy.m */,
+				D95870644D9CFF9CB3EDD945 /* Pods-LGSublimationView-environment.h */,
+				A4F4CF2FF45334F6CEF4F050 /* Pods-LGSublimationView-resources.sh */,
+				02903491B6FF901C26979B15 /* Pods-LGSublimationView.debug.xcconfig */,
+				9BFF9BDD91786695A73BF31E /* Pods-LGSublimationView.release.xcconfig */,
+			);
+			name = "Pods-LGSublimationView";
+			path = "Target Support Files/Pods-LGSublimationView";
+			sourceTree = "<group>";
+		};
+		49EA954E7AFF0C56BCBB8881 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2516D34378AF54B4F7A4CAE4 /* LGSublimationView.bundle */,
+				CC5E8F656A0EF76E5CCD2D4D /* LGSublimationView.bundle */,
+				001E2459BAD689E65CF49F1C /* libPods-LGSublimationView.a */,
+				C4E065813447476A8793EF78 /* libPods-LGSublimationView-LGSublimationView.a */,
+				117221AC2ABEFF110EA40885 /* libPods-Tests.a */,
+				0F0A7544CA8DEF7695C8D1EC /* libPods-Tests-LGSublimationView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AFD2694538877DD68C0646D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				57263CBF53453B198B55BEDD /* Pods-LGSublimationView-LGSublimationView.xcconfig */,
+				DF4F797692F92685F8FFFBC5 /* Pods-LGSublimationView-LGSublimationView-Private.xcconfig */,
+				A73E3F8BAE11C8FF0FDD63A5 /* Pods-LGSublimationView-LGSublimationView-dummy.m */,
+				9174A18280321BBD3CB32413 /* Pods-LGSublimationView-LGSublimationView-prefix.pch */,
+				491ED69F6C5C2C3D19FE0539 /* Pods-Tests-LGSublimationView.xcconfig */,
+				F17F5D2D63A415D8F6876A3C /* Pods-Tests-LGSublimationView-Private.xcconfig */,
+				9505FCB2C53DE229B6AB0E4F /* Pods-Tests-LGSublimationView-dummy.m */,
+				63048EC2ACAED36AF47F5D57 /* Pods-Tests-LGSublimationView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-LGSublimationView-LGSublimationView";
+			sourceTree = "<group>";
+		};
+		8F57EF449CECB33B61A48C8F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				77A8798897E92DBB90C4298A /* LGSublimationView.h */,
+				9B7B43617AE575571ABF90EC /* LGSublimationView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B8399347E2D3A06453C6DD39 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				505852975BA192CB89512BEF /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BBFC633321A272AAC8502761 /* LGSublimationView */ = {
+			isa = PBXGroup;
+			children = (
+				074EAD1B1D4CC2A71B406836 /* Pod */,
+				7AFD2694538877DD68C0646D /* Support Files */,
+			);
+			name = LGSublimationView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		EE03C92AE1424D12923998BE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				48C729CAFDCDF6CB04F19D11 /* Pods-LGSublimationView */,
+				04C25A717BAFFE2B49526B1F /* Pods-Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F29E806288738CFD4E10197B = {
+			isa = PBXGroup;
+			children = (
+				BCFA74B53BE7A8660124C449 /* Podfile */,
+				436DC08EAD7B559F42AE77AA /* Development Pods */,
+				1D4326BBA03FFADC3B20C423 /* Frameworks */,
+				49EA954E7AFF0C56BCBB8881 /* Products */,
+				EE03C92AE1424D12923998BE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3D032783E81FD76B9C77AC37 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3946201D6BA288A4966E2FB6 /* LGSublimationView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0DFBC334B1CC5AF3D623962 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AA8D38004EDB2F3FE02ED3E /* LGSublimationView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0677A99B304A61649D60D764 /* Pods-Tests-LGSublimationView-LGSublimationView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AF4CB26F4EE76CA01A79713 /* Build configuration list for PBXNativeTarget "Pods-Tests-LGSublimationView-LGSublimationView" */;
+			buildPhases = (
+				AAEE3D49DCD5FC3098E3F4E8 /* Sources */,
+				45AA593A47F8F6C9845889AD /* Frameworks */,
+				78BE315F93CE75993A1B5E5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Tests-LGSublimationView-LGSublimationView";
+			productName = "Pods-Tests-LGSublimationView-LGSublimationView";
+			productReference = 2516D34378AF54B4F7A4CAE4 /* LGSublimationView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		2417881ADB86ECC92C3AFAA1 /* Pods-Tests-LGSublimationView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CFD9788C2CC4E015D6B8D5D /* Build configuration list for PBXNativeTarget "Pods-Tests-LGSublimationView" */;
+			buildPhases = (
+				C655988005A3ED70E4A93142 /* Sources */,
+				BDFBFA3DDD28FBE813FE71BB /* Frameworks */,
+				3D032783E81FD76B9C77AC37 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C3FAB692DC4024F8604BDF1 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests-LGSublimationView";
+			productName = "Pods-Tests-LGSublimationView";
+			productReference = 0F0A7544CA8DEF7695C8D1EC /* libPods-Tests-LGSublimationView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3BEDF0523F9FC14E1CA42001 /* Pods-LGSublimationView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 451F2CFE239452346A1EF619 /* Build configuration list for PBXNativeTarget "Pods-LGSublimationView" */;
+			buildPhases = (
+				93A33F3D4A180E21B09D74CD /* Sources */,
+				C109AD3B30B8B966EEA92FB7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE8CCA684DD614E9C33B8AEF /* PBXTargetDependency */,
+			);
+			name = "Pods-LGSublimationView";
+			productName = "Pods-LGSublimationView";
+			productReference = 001E2459BAD689E65CF49F1C /* libPods-LGSublimationView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9822F62BE9D0078F4F6C3CD7 /* Pods-LGSublimationView-LGSublimationView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C29DB05BC40C48566FF74A2 /* Build configuration list for PBXNativeTarget "Pods-LGSublimationView-LGSublimationView" */;
+			buildPhases = (
+				8F7350A5642AAA16B4226EFC /* Sources */,
+				49B9ECC33F0256B4B4F8ECCB /* Frameworks */,
+				F0DFBC334B1CC5AF3D623962 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91C68426A894BC1DEF688DA2 /* PBXTargetDependency */,
+			);
+			name = "Pods-LGSublimationView-LGSublimationView";
+			productName = "Pods-LGSublimationView-LGSublimationView";
+			productReference = C4E065813447476A8793EF78 /* libPods-LGSublimationView-LGSublimationView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CB7126181D245B9942B2DDEA /* Pods-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B742AEB200A72480A5A8CEE /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildPhases = (
+				A8EA564A11DA7A799B803D00 /* Sources */,
+				B5697E572C252285FA868076 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66C7EDB511FE93ABEC771156 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests";
+			productName = "Pods-Tests";
+			productReference = 117221AC2ABEFF110EA40885 /* libPods-Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E56AFE7C724541E2A97BA2A7 /* Pods-LGSublimationView-LGSublimationView-LGSublimationView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08D25A2D2802C9EE0367D95F /* Build configuration list for PBXNativeTarget "Pods-LGSublimationView-LGSublimationView-LGSublimationView" */;
+			buildPhases = (
+				513E9FC37B91976CBCBB0614 /* Sources */,
+				25D5E404943E0867E3ED44CD /* Frameworks */,
+				79F56445F824D1D0D39B2D48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LGSublimationView-LGSublimationView-LGSublimationView";
+			productName = "Pods-LGSublimationView-LGSublimationView-LGSublimationView";
+			productReference = CC5E8F656A0EF76E5CCD2D4D /* LGSublimationView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8920C2D422E03505C9F2467A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 9D1DA337B916B3F9D64374C2 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F29E806288738CFD4E10197B;
+			productRefGroup = 49EA954E7AFF0C56BCBB8881 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BEDF0523F9FC14E1CA42001 /* Pods-LGSublimationView */,
+				9822F62BE9D0078F4F6C3CD7 /* Pods-LGSublimationView-LGSublimationView */,
+				E56AFE7C724541E2A97BA2A7 /* Pods-LGSublimationView-LGSublimationView-LGSublimationView */,
+				CB7126181D245B9942B2DDEA /* Pods-Tests */,
+				2417881ADB86ECC92C3AFAA1 /* Pods-Tests-LGSublimationView */,
+				0677A99B304A61649D60D764 /* Pods-Tests-LGSublimationView-LGSublimationView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78BE315F93CE75993A1B5E5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79F56445F824D1D0D39B2D48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		513E9FC37B91976CBCBB0614 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F7350A5642AAA16B4226EFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC0512C51ECDEDFAB8A2C88 /* LGSublimationView.m in Sources */,
+				6ACB254836298AD0E173398E /* Pods-LGSublimationView-LGSublimationView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93A33F3D4A180E21B09D74CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADDC41CCDCEB657FCC5C1F5D /* Pods-LGSublimationView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8EA564A11DA7A799B803D00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				700009C2E734C199283275C7 /* Pods-Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAEE3D49DCD5FC3098E3F4E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C655988005A3ED70E4A93142 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C2E2E07F5DE60A2CA1EAD6B /* LGSublimationView.m in Sources */,
+				CA02CE8BF82E29542B7FB436 /* Pods-Tests-LGSublimationView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C3FAB692DC4024F8604BDF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-LGSublimationView-LGSublimationView";
+			target = 0677A99B304A61649D60D764 /* Pods-Tests-LGSublimationView-LGSublimationView */;
+			targetProxy = 38CD0E70DBF2542907B67F1D /* PBXContainerItemProxy */;
+		};
+		66C7EDB511FE93ABEC771156 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-LGSublimationView";
+			target = 2417881ADB86ECC92C3AFAA1 /* Pods-Tests-LGSublimationView */;
+			targetProxy = 90D649936A6BB161467E6BD6 /* PBXContainerItemProxy */;
+		};
+		91C68426A894BC1DEF688DA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LGSublimationView-LGSublimationView-LGSublimationView";
+			target = E56AFE7C724541E2A97BA2A7 /* Pods-LGSublimationView-LGSublimationView-LGSublimationView */;
+			targetProxy = 491F034E2CDD33C540F7B8C4 /* PBXContainerItemProxy */;
+		};
+		CE8CCA684DD614E9C33B8AEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LGSublimationView-LGSublimationView";
+			target = 9822F62BE9D0078F4F6C3CD7 /* Pods-LGSublimationView-LGSublimationView */;
+			targetProxy = 1FA59C0DF83CFDF519FF10E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2BAC792B499AB34B36A0009A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF4F797692F92685F8FFFBC5 /* Pods-LGSublimationView-LGSublimationView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-LGSublimationView-LGSublimationView/Pods-LGSublimationView-LGSublimationView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2EAFC48978DF2B48C8FBF5E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02903491B6FF901C26979B15 /* Pods-LGSublimationView.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3F299B2FDBA889E0909B7AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F17F5D2D63A415D8F6876A3C /* Pods-Tests-LGSublimationView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-LGSublimationView/Pods-Tests-LGSublimationView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		497AD9DEC20184A969050A6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4A8BCC20249761960E3FF2D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF4F797692F92685F8FFFBC5 /* Pods-LGSublimationView-LGSublimationView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = LGSublimationView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		54462739EB7269A79E7B1ED7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF4F797692F92685F8FFFBC5 /* Pods-LGSublimationView-LGSublimationView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-LGSublimationView-LGSublimationView/Pods-LGSublimationView-LGSublimationView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		67D558142C9DD7ECB36542A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E8D3FBF5455BAEA24DAAFF1 /* Pods-Tests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6F6ED43B26AFC9A7733F9D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08FCEA3F4181391FDB91ED1D /* Pods-Tests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		776D819FEE6F29D8DE2B8A8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF4F797692F92685F8FFFBC5 /* Pods-LGSublimationView-LGSublimationView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = LGSublimationView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		77EBF73190FEDDF1F6C8D2F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F17F5D2D63A415D8F6876A3C /* Pods-Tests-LGSublimationView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = LGSublimationView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		ADE90EC043B7C3ED3518B1DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE945DBBF06128C5D5E15AC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F17F5D2D63A415D8F6876A3C /* Pods-Tests-LGSublimationView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = LGSublimationView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		E687CBF66B53017FF6FEACDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F17F5D2D63A415D8F6876A3C /* Pods-Tests-LGSublimationView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-LGSublimationView/Pods-Tests-LGSublimationView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F59A7A4024A74950447E3EFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BFF9BDD91786695A73BF31E /* Pods-LGSublimationView.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08D25A2D2802C9EE0367D95F /* Build configuration list for PBXNativeTarget "Pods-LGSublimationView-LGSublimationView-LGSublimationView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				776D819FEE6F29D8DE2B8A8D /* Debug */,
+				4A8BCC20249761960E3FF2D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B742AEB200A72480A5A8CEE /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F6ED43B26AFC9A7733F9D84 /* Debug */,
+				67D558142C9DD7ECB36542A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CFD9788C2CC4E015D6B8D5D /* Build configuration list for PBXNativeTarget "Pods-Tests-LGSublimationView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F299B2FDBA889E0909B7AEA /* Debug */,
+				E687CBF66B53017FF6FEACDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		451F2CFE239452346A1EF619 /* Build configuration list for PBXNativeTarget "Pods-LGSublimationView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EAFC48978DF2B48C8FBF5E5 /* Debug */,
+				F59A7A4024A74950447E3EFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AF4CB26F4EE76CA01A79713 /* Build configuration list for PBXNativeTarget "Pods-Tests-LGSublimationView-LGSublimationView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77EBF73190FEDDF1F6C8D2F8 /* Debug */,
+				BE945DBBF06128C5D5E15AC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C29DB05BC40C48566FF74A2 /* Build configuration list for PBXNativeTarget "Pods-LGSublimationView-LGSublimationView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BAC792B499AB34B36A0009A /* Debug */,
+				54462739EB7269A79E7B1ED7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D1DA337B916B3F9D64374C2 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				497AD9DEC20184A969050A6D /* Debug */,
+				ADE90EC043B7C3ED3518B1DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8920C2D422E03505C9F2467A /* Project object */;
+}
