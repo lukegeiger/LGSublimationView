@@ -1,6 +1,5 @@
 # LGSublimationView
 
-[![Join the chat at https://gitter.im/lukegeiger/LGSublimationView](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/lukegeiger/LGSublimationView?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Version](https://img.shields.io/cocoapods/v/LGSublimationView.svg?style=flat)](http://cocoapods.org/pods/LGSublimationView)
 [![License](https://img.shields.io/cocoapods/l/LGSublimationView.svg?style=flat)](http://cocoapods.org/pods/LGSublimationView)
 [![Platform](https://img.shields.io/cocoapods/p/LGSublimationView.svg?style=flat)](http://cocoapods.org/pods/LGSublimationView)
